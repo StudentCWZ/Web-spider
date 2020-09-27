@@ -4,8 +4,10 @@
 2. 选择`Chrome`作为分析网站工具，因为其简洁、速度快(无论是启动速度、页面解析速度还是`JavaScript`执行速度)，对`HTML5`和`CSS`的支持都比较完善。
 3. `Chrome`开发工具的界面共有9个标签页：`Elements`、`Console`、`Sources`、`Network`、`Performance`、`Memory`、`Application`、`Security`和`Audits`。
 4. `Chrome`开发工具以`Web`调试为主，如果用于爬虫分析，熟练掌握`Elements`和`Network`标签就能满足大部分的爬虫需求。
+
 ## Elements 标签
 1. 在`Elements`标签中允许从浏览器的角度看页面，也就是说可以看到`Chrome`渲染页面所需要的`HTML`、`CSS`和`DOM(Document Object Model)`对象。此外，还可以编辑内容更改页面显示效果。
+
 ## Network 标签
 1. 在`Network`标签中可以看到页面向服务器请求的信息、请求的大小以及加载请求花费的时间。从发起网页页面请求`Request`后分析`HTTP`请求得到各个请求信息(包括`状态`、`类型`、`大小`、`所用时间`、`Request`和`Response`等)。
 2. `Network`标签主要包括以下5个区域：
@@ -62,6 +64,7 @@
 (1) 如果返回的结果是图片，那么Preview表示可显示图片的内容，Response表示无法显示。
 (2) 如果返回的是HTML或JSON，那么两者皆能显示，但在格式上可能存在细微差异。
 ```
+
 ## 本章小结
 1. `Chrome`开发者工具的主要作用是进行`Web`开发调试，对于爬虫开发人员来说，应该熟练掌握`Elements`、`Console`和`Network`。其中`Network`是核心部分。
 2. 一般分析网站最主要的是找到数据的来源，确定数据来源就能确定数据生成的具体方法。总结归纳分析网站的步骤如下：
